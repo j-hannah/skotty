@@ -61,10 +61,10 @@ export default function About() {
               Scott Hannah
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>Thing from gofundme? </p>
+              <p>Life story... </p>
             </div>
           </div>
-          <div className="lg:pl-20">
+          {/* <div className="lg:pl-20">
             <ul role="list">
               <SocialLink href="#" icon={TwitterIcon}>
                 Follow on Twitter
@@ -73,7 +73,7 @@ export default function About() {
                 Follow on Instagram
               </SocialLink>
             </ul>
-          </div>
+          </div> */}
         </div>
       </Container>
     </>
