@@ -87,7 +87,7 @@ export default function Videos() {
         intro="Rarely would you find Scott without his camera up. Always capturing the life moments and creating entertaining media."
       >
         <div className="isolate my-4 inline-flex items-center rounded-md shadow-sm">
-          <span className="mr-4">Filters: </span>
+          <span className="mr-4 dark:text-zinc-400">Filters: </span>
           <button
             type="button"
             className={`
@@ -143,7 +143,7 @@ export default function Videos() {
                     </span>
                   </button>
                 </div>
-                <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900">
+                <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900 dark:text-zinc-400">
                   {video.title}
                 </p>
               </li>
