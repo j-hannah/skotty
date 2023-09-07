@@ -57,6 +57,11 @@ export default function Videos() {
     setSelectedVideoIndex(index);
   }
 
+  function handleModalClose() {
+    setSelectedVideo(null);
+    setSelectedVideoIndex(null);
+  }
+
   function handleNext() {
     const nextIndex =
       selectedVideoIndex < filteredVideos.length - 1
@@ -86,8 +91,8 @@ export default function Videos() {
           <button
             type="button"
             className={`
-              ${selectedFilter === "tiktok" ? "bg-teal-400" : ""}
-              relative inline-flex items-center rounded-l-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-teal-100 focus:z-10`}
+              ${selectedFilter === "tiktok" ? "bg-teal-400" : "bg-white"}
+              relative inline-flex items-center rounded-l-md px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-teal-100 focus:z-10`}
             onClick={() =>
               setSelectedFilter((prev) => (prev === "tiktok" ? null : "tiktok"))
             }
@@ -97,8 +102,8 @@ export default function Videos() {
           <button
             type="button"
             className={`
-              ${selectedFilter === "youtube" ? "bg-teal-400" : ""}
-              relative -ml-px inline-flex items-center rounded-r-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-teal-100 focus:z-10`}
+              ${selectedFilter === "youtube" ? "bg-teal-400" : "bg-white"}
+              relative -ml-px inline-flex items-center rounded-r-md px-3 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-teal-100 focus:z-10`}
             onClick={() =>
               setSelectedFilter((prev) =>
                 prev === "youtube" ? null : "youtube"
@@ -147,7 +152,7 @@ export default function Videos() {
         <VideoModal
           show={selectedVideo !== null}
           video={selectedVideo}
-          onClose={() => setSelectedVideo(null) && selectedVideoIndex(0)}
+          onClose={handleModalClose}
           goToPrev={selectedVideoIndex > 0 ? handlePrev : null}
           goToNext={handleNext}
         />
