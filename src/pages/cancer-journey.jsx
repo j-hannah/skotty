@@ -51,25 +51,26 @@ export default function Speaking() {
               When I found out I had cancer, I was honestly very shocked. It put
               me in a very dark mental place. Any guy could understand that if
               this happened to you. It would just put you in a very weird place
-              in my mind. So I didn't know how to talk about it with anybody. It
-              was just a very hard mental place for me to be in.
+              in my mind. So I didn&apos;t know how to talk about it with
+              anybody. It was just a very hard mental place for me to be in.
             </p>
             <p>
               My chemo treatments were intense. I would go in Monday through
               Friday, six hours a day, getting treatment, and it was very hard
-              on my body. I didn't have energy to be able to work, and I wasn't
-              able to work at all during this whole time. The Gala of Hope
-              Foundation was able to help me pay for two months of my rent, and
-              that just took a weight off of my shoulder as I didn't have to
-              worry about it for two months.
+              on my body. I didn&apos;t have energy to be able to work, and I
+              wasn&apos;t able to work at all during this whole time. The Gala
+              of Hope Foundation was able to help me pay for two months of my
+              rent, and that just took a weight off of my shoulder as I
+              didn&apos;t have to worry about it for two months.
             </p>
             <p>
-              Today I'm cancer free I'm doing great, my energy's back. I do have
-              some long term side effects that I'm dealing with, I still have
-              the neuropathy in my hand making my hands pretty weak. So that's
-              just a day to day struggle, gaining back the strength in my hands.
-              I have a new daily routine that I'm working out. But this whole
-              journey has made me such a stronger person.
+              Today I&apos;m cancer free I&apos;m doing great, my energy&apos;s
+              back. I do have some long term side effects that I&apos;m dealing
+              with, I still have the neuropathy in my hand making my hands
+              pretty weak. So that&apos;s just a day to day struggle, gaining
+              back the strength in my hands. I have a new daily routine that
+              I&apos;m working out. But this whole journey has made me such a
+              stronger person.
             </p>
             <p>
               I have a new outlook on life and I appreciate it a lot more. Thank
