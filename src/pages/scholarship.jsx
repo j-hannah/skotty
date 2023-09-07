@@ -69,15 +69,15 @@ export default function Scholarship() {
               music, and worked as a videographer.
             </p>
             <p>
-              A large part of Scott's legacy was his time serving with his
+              A large part of Scott&apos;s legacy was his time serving with his
               friend as National Spokespeople for the Great American NO BULL
-              Challenge. Together, they were known as the "No Bull Guys". They
-              spent years traveling the country and speaking at events and
-              assemblies about bullying. Through these early ventures, he earned
-              many awards and accolades, including the Prudential Spirit of
-              Community Award and the Megan Meier Foundation Memorial
-              Scholarship for those who speak out against bullying in their
-              communities.
+              Challenge. Together, they were known as the &quot;No Bull
+              Guys&quot;. They spent years traveling the country and speaking at
+              events and assemblies about bullying. Through these early
+              ventures, he earned many awards and accolades, including the
+              Prudential Spirit of Community Award and the Megan Meier
+              Foundation Memorial Scholarship for those who speak out against
+              bullying in their communities.
             </p>
             <p>
               Scott was a loving son, brother, grandson, uncle, & friend. He
@@ -86,9 +86,9 @@ export default function Scholarship() {
               positive impact on everyone he met.
             </p>
             <p>
-              In his memory, we're partnering with the 4H Foundation to reward
-              others who serve their communities. For scholarship details, you
-              can follow the link below.
+              In his memory, we&apos;re partnering with the 4H Foundation to
+              reward others who serve their communities. For scholarship
+              details, you can follow the link below.
             </p>
           </div>
           <div className="md:w-2/5">{GoFundMe()}</div>
